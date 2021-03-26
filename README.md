@@ -58,18 +58,18 @@ Esta aplicação implementa autenticação e autorização, dessa forma é neces
 Crie um ou mais usuários USER para atribuir faturas a eles. Para criar mais de um usuário será necessário alterar os valores únicos de cada usuário: CPF, email e username;
 
 #### 3) Collection - Create Bill
-Crie uma ou mais faturas relacionada ao usuário do tipo USER criado, somente este usuário poderá pagar a fatura.
+Crie uma ou mais faturas relacionada ao usuário do tipo USER criado, somente este usuário poderá pagar a fatura;
 
 #### 4) Collection - Login User USER
 Faça login com o usuário que você criou para fazer o pagamento, alterando, caso necessário, os campos de usuário e senha caso tenha utilizado outros valores;
    
 #### 5) Collection - Get my Bills
-Utilize o usuário logado para buscar suas faturas.
+Utilize o usuário logado para buscar suas faturas;
 
 #### 6) Collection - Pay Bill
-Utilize o usuário logado para pagar uma fatura. O Id da fatura que deseja pagar deverá ser informada na URL como parâmetro e só será possível pagar se a fatura esta associada ao usuário logado.
+Utilize o usuário logado para pagar uma fatura. O Id da fatura que deseja pagar deverá ser informada na URL como parâmetro e só será possível pagar se a fatura esta associada ao usuário logado;
    
-#### 7) Repita os passos 5 e 6 para pagar quantas faturas quiser, mas lembre-se que não é possível pagar a mesma fatura mais de uma vez.
+#### 7) Repita os passos 5 e 6 para pagar quantas faturas quiser, mas lembre-se que não é possível pagar a mesma fatura mais de uma vez;
 
 #### 8) Collection - Login Admin User 
 Faça login como Administrador novamente para verificar a lista de faturas;
